@@ -1,0 +1,41 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:url("images/background.jpg");
+    background-size:cover;
+}
+
+#content {
+    background-color: #8C5B3F;
+    width:70%;      
+    margin:auto;    /*center */
+    padding:1%;     /* get text away from edge */
+    border-radius: 5px; /* round corners */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border:1px solid #F2D6B3;
+    padding:5px 10px;   /*Top and bottom 5, right and left 10 */
+}
+
+th {
+    background: #40260F
+}
+
+/* Images */
+#giraffe-pic {
+    box-shadow: 5px 5px #F2D6B3;
+}
+
+/*Typography */
+h1 {
+    color: #D99B66
+}
+
+h2 {
+    color: #8C5B3F 
+}

@@ -1,0 +1,58 @@
+/* Structure */
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: url("images/gym_background.webp");
+    background-size: cover; 
+}
+
+#content {
+    background-color: black;
+    width:73%;
+    margin:auto;    
+    padding:1%;
+    border-radius:10px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border:1px solid rgb(141, 44, 44);
+    background-color: white;
+    padding: 10px 5px;
+}
+
+th {
+    background-color: darkgray;
+}
+
+/* Images */
+#squat-pic {
+    padding: 10px;
+    box-shadow: 7px 7px rgb(214, 9, 9);
+}
+
+#deadlift-pic {
+    padding: 10px;
+    box-shadow: 7px 7px rgb(214, 9, 9);
+}
+
+
+/* Typography */
+h1 {
+    color: rgb(214, 9, 9);
+}
+
+h2 {
+    color:rgb(141, 44, 44);
+}
+
+p {
+    color: white;
+}
+
+table {
+    color: rgb(214, 9, 9);
+}

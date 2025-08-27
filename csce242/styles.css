@@ -1,0 +1,40 @@
+/* Structure */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #003C21;
+}
+
+#content {
+    background-color: #C7F2CF;
+    width: 90%;
+    margin: auto;
+    padding:1%;
+    border-radius: 10px;
+}
+
+/* Navigation */
+#repository {
+    text-decoration: none;
+    color: #254C3C;
+}
+
+a.assignment
+{
+    text-decoration: none;
+    color: #DC1235;  
+}
+
+/* Typography */
+h1 {
+    color: #254C3C;
+}
+h2 {
+    color: #732530;
+}
+p {
+    color: #257334;
+}
+h3 {
+    color: #732530;
+}
+
