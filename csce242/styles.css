@@ -6,35 +6,72 @@ body {
 
 #content {
     background-color: #C7F2CF;
-    width: 90%;
+    width: 60%;
     margin: auto;
     padding:1%;
     border-radius: 10px;
 }
 
+#name {
+   padding-right: 25% 
+    
+}
+
 /* Navigation */
-#repository {
+#repository-nav a {
     text-decoration: none;
     color: #254C3C;
 }
 
-a.assignment
-{
-    text-decoration: none;
-    color: #DC1235;  
+#assignment-nav ol {
+    list-style-type: none;
 }
+
+#assignment-nav li {
+    text-align:center;
+    background:#003C21;
+    margin:auto;
+    width:95%;
+    padding:5px, 5px;
+}
+
+#assignment-nav li:first-child {
+    background:#003C21;
+    margin:auto;
+    width:50%;
+    padding:5px, 5px;
+}
+
+#assignment-nav a {
+    text-decoration: none;
+    color: #DC1235;
+}
+
 
 /* Typography */
-h1 {
+#title {
     color: #254C3C;
+    text-align: center;
 }
-h2 {
+
+#name {
     color: #732530;
+    text-align: center;
+    font-size: larger;
 }
-p {
+
+#description {
     color: #257334;
 }
-h3 {
+
+#assignments-header {
     color: #732530;
+    text-align: center;
 }
+
+
+
+/* Larger devices */
+
+
 
