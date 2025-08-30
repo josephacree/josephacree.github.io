@@ -4,12 +4,12 @@ body {
 }
 
 #content {
-    width:100%;
     margin:auto;
 }
 
 #main-header {
     width:100%;
+    padding:0;
 }
 
 
@@ -58,10 +58,10 @@ body {
     /* Columns */
     .columns {
         display:flex;
-        
     }
 
     /* Main Nav */
+
     #main-nav li {
         flex:1;
     }

@@ -5,7 +5,7 @@ body {
 }
 
 #content {
-    background-color: #C7F2CF;
+    background-color:#C7F2CF;
     width: 90%;
     margin: auto;
     padding:1%;
@@ -16,7 +16,9 @@ body {
 /* Repository Navigation */
 #repository-nav a {
     text-decoration: none;
+    background:#DC1235;
     color:#003C21;
+    border:solid 1px #023106;
 }
 
 #repository-nav a:hover {
@@ -30,11 +32,16 @@ body {
 }
 
 #assignment-nav li {
-    background-color:#023106;
+    background-color:#003C21;
     margin:auto;
     width:400px;
     padding:10px;
     margin:20px;
+}
+
+#assignment-nav li:hover {
+    color:rgb(12, 204, 12);
+    background-color:#732530;
 }
 
 #assignment-nav a {
@@ -44,11 +51,6 @@ body {
     text-decoration: none;
     display:block;
     color:#DC1235;
-}
-
-#assignment-nav a:hover {
-    color:rgb(12, 204, 12);
-    background-color:#732530;
 }
 
 /* Images */
@@ -87,6 +89,7 @@ body {
 /* Columns */
     .columns {
         display:flex;
+
     }
 
 /* Smaller devices */
@@ -101,6 +104,11 @@ body {
     }
 
     /* Assignment Navigation */
+    #assignment-nav li {
+        margin:5%;
+    }
+
+    /* Columns */
     .columns {
         display:block;
     }
