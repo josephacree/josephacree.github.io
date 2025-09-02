@@ -57,6 +57,7 @@ body {
 .assignment-images {
     display:block;
     margin:auto;
+    max-width:100%;
     width:300px;
     height:150px;
 }
